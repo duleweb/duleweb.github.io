@@ -79,22 +79,13 @@ height: 40px;
 
 .square {
   background: #000000;
+  background-image: url("http://placehold.jp/3d4070/ffffff/1920x1080.png");
+  background-size: cover;
   position: relative;
   flex-basis: calc(25% - 10px);
   margin: 5px;
   border: 1px solid;
   box-sizing: border-box;
-}
-    
-.square:hover .content {
-filter: grayscale(100%) contrast(180%);
-  background-size:150%;
-}
-    
-.content{
-background: #000000;
-  background-image: url("http://placehold.jp/3d4070/ffffff/1920x1080.png");
-  background-size: cover;
 }
 
 /*.square::before {
@@ -102,7 +93,6 @@ background: #000000;
   display: block;
   padding-top: 56.25%;
 }
-
 .square .content {
   position: absolute;
   top: 0; left: 0;
